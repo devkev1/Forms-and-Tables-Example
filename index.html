@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms and Tables Example</title>
+</head>
+<body>
+    <div>
+        <form action="">
+           <label for="firstname">First Name:</label>
+           <br><input type="text" name="firstname" id="firstname" placeholder="John" required/> <br>
+           <label for="lastname">Last Name:</label>
+           <br><input type="text" name="lastname" id="lastname" placeholder="Doe" required/>  <br>
+           <label for="email">Email:</label>
+           <br><input type="text" name="email" id="email" placeholder="email@example.com" required/>
+        </form> 
+
+        <form action="">
+            <p>Programming Experience:</p>
+            <input type="radio" id="beginner" name="beginner" value="Beginner">
+            <label for="beginner">Beginner</label><br>
+            <input type="radio" id="intermediate" name="intermediate" value="Intermediate">
+            <label for="intermediate">Intermediate</label><br>
+            <input type="radio" id="advanced" name="advanced" value="Advanced">
+            <label for="advanced">Advanced</label>
+        </form> <br>
+
+        <form action="">
+            <label for="text">Desired Career:</label> <br>
+                <textarea id="text" name="text" rows="4" cols="50">
+   
+                </textarea>
+               
+                <br><br>
+                
+                <input type="submit" value="Submit">
+        </form>
+
+        <br>
+        
+        <table>
+            <tr>
+                <th>First Name</th> 
+                <th>Last Name</th> 
+                <th>Email</th>
+            </tr>
+
+            <tr>
+                <th>Kevin</th>
+                <th>Wong</th>
+                <th>kevingywong@gmail.com</th>
+            </tr>
+        </table>
+
+    </div>
+</body>
+</html>
